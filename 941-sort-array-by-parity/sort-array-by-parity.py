@@ -8,4 +8,7 @@ class Solution(object):
                 nums[j]=nums[i]
                 nums[i]=temp
                 i=i+1
-        return nums        
+        return nums     
+
+
+        
