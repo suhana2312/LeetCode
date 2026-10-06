@@ -6,5 +6,3 @@ class Solution(object):
             if prices[i+1]>prices[i]:
                 profit=profit+(prices[i+1]-prices[i])
         return profit        
-
-        
