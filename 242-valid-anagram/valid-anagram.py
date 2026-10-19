@@ -10,7 +10,7 @@ class Solution(object):
                 freq[i]+=1 
         for i in t:
             if i not in freq:
-                freq[i]=1
+                return False
             else:
                 freq[i]-=1               
         for i in freq.values():
